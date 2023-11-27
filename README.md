@@ -1,5 +1,10 @@
 # SkiBooking
-It is a MS VS solution containing both the frontend (Vue 3) and backend API (.NET 8). Clone and open the solution in VS2022 and hit F5.
+It is a MS VS solution containing both the frontend (Vue 3) and backend API (.NET 8). 
+
+# Local setup
+- Clone and open the solution in VS2022. 
+- Ensure both API and client projects are setup as startup projects and hit F5.
+- If the frontend application loads before the API is started then refresh the browser once the API is up and running.
 
 # Frontend
 The frontend is built using VUE3 Typescript. The application uses Vue router for routing, Vuex for state managment and bootstrap-vue-next for styles. It uses standard out of the box project structure. The ski booking workflow is as following:
