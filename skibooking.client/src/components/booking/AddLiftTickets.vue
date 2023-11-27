@@ -20,7 +20,7 @@
                 </label>
             </BCol>
             <BCol sm="9">
-                <BFormInput v-model="days" type="number" placeholder="Enter number of days" />
+                <BFormInput v-model="days" type="number" min="0"  placeholder="Enter number of days" />
             </BCol>
         </BRow>
         <BRow class="my-1">
@@ -30,12 +30,12 @@
                 </label>
             </BCol>
             <BCol sm="9">
-                <BFormInput v-model="quantity" type="number" placeholder="Enter quantity" />
+                <BFormInput v-model="quantity" type="number" min="0"  placeholder="Enter quantity" />
             </BCol>
         </BRow>
         <BButton @click="back">Cancel</BButton>
 
-        <BButton variant="primary" @click="addToBooking">Book</BButton>
+        <BButton variant="primary" @click="addToBooking">Complete Booking</BButton>
 
     </div>
 </template>

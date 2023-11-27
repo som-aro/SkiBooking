@@ -25,7 +25,6 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<ISkiPackageService, SkiPackageService>();
 builder.Services.AddScoped<IEquipmentService, EquipmentService>();
-builder.Services.AddScoped<ILiftTicketService, LiftTicketService>();
 
 builder.Services.AddAutoMapper(typeof(MappingProfiles));
 

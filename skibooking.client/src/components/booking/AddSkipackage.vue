@@ -50,7 +50,7 @@
         </BRow>
 
         <BButton @click="back">Back</BButton>
-        <BButton variant="primary" @click="addToBooking">Book</BButton>
+        <BButton variant="primary" :disabled="quantity < 1" @click="addToBooking">Book</BButton>
 
     </div>
 </template>

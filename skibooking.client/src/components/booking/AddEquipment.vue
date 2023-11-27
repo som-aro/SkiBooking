@@ -13,7 +13,7 @@
                                 </label>
                             </BCol>
                             <BCol sm="10">
-                                <BFormInput v-model="equipment.quantity" placeholder="Enter quantity" />
+                                <BFormInput v-model="equipment.quantity" placeholder="Enter quantity" type="number" min="0" />
                             </BCol>
                         </BRow>
                     </BCardText>

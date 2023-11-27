@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkiBooking.Services", "SkiB
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkiBooking.Interface", "SkiBooking.Interface\SkiBooking.Interface.csproj", "{F109D67D-58EC-4E5C-9458-0C93FDC07B4B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkiBooking.UnitTest", "SkiBooking.UnitTest\SkiBooking.UnitTest.csproj", "{A0BA9C78-63D8-4141-A384-15D0F88B1738}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,10 @@ Global
 		{F109D67D-58EC-4E5C-9458-0C93FDC07B4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F109D67D-58EC-4E5C-9458-0C93FDC07B4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F109D67D-58EC-4E5C-9458-0C93FDC07B4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0BA9C78-63D8-4141-A384-15D0F88B1738}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0BA9C78-63D8-4141-A384-15D0F88B1738}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0BA9C78-63D8-4141-A384-15D0F88B1738}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0BA9C78-63D8-4141-A384-15D0F88B1738}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
