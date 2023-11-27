@@ -11,4 +11,4 @@ The frontend is built using VUE3 Typescript. The application uses Vue router for
 - On booking summary page, user selections and the total is displayed.
 
 # Backend
-The backend APIs are built using .NET8. There is minimal code in the API controllers and all the heavy lifting is done in the services which implement interfaces. The services are DI into the API. The idea behind is so that they can be easily unit tested.   
+The backend APIs are built using .NET8. There is minimal code in the API controllers and all the heavy lifting is done in the services which implement interfaces. The services are DI into the API. The idea behind is so that they can be easily unit tested. The project also uses Automapper to map the domain model objects to DTOs which are returned by the API.
